@@ -1,0 +1,174 @@
+.margin{
+    margin:auto;
+}
+.screen{
+    height: 30vw;
+    width: 42vw;
+    border: solid 1px black;
+    background-color: grey;
+    left: 26%;
+    border-width: 6vw 6vw 15vw 6vw;
+    border-color: darkred darkred grey darkred;
+    position: absolute;
+   
+    margin:auto;
+}
+.border1 {
+    height: 23vw;
+    width: 42vw;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    
+    background-color: #8BCBF7;
+}
+.account {
+    position: absolute;
+    z-index: 0;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 5vw;
+    width: 42vw;
+    font-size:1.5vw;
+    background-color: darkblue;
+}
+
+.accountnumber {
+    left: 37%;
+    position: absolute;
+    top: 17%;
+    z-index: 0;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+    .amount {
+        left: 9vw;
+        position: absolute;
+        top: 4vw;
+        z-index: 0;
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 1.5vw;
+    }
+    .amount button{
+top:14.7vw;
+left:9vw;
+position:absolute;
+        height:3vw;
+        width:9vw;
+        background-color: grey;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    border: none;
+    }
+
+    .amount button:hover{
+        background-color:maroon;
+        BORDER:solid .2vw black;
+    }
+    .amount input{
+
+        border: none;
+        height:2vw;
+        width:20vw;
+    }
+.front{
+   
+        left:27%;
+        position:absolute;
+        top:11%;
+       
+}
+.deposit{
+    top:50%;
+    left:55%;
+    position:absolute;
+    
+
+}
+.deposit button {
+    background-color: grey;
+    color: white;
+    margin: 5%;
+    height: 4vw;
+    width: 14vw;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    border: none;
+}
+
+.deposit button:hover{
+    background-color:maroon;
+    BORDER:solid .2vw black;
+}
+
+.cash{
+
+    height: 2vw;
+    width: 15vw;
+    background-color: black;
+    top: 24vw;
+    left: 14vw;
+    position: absolute;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.cash2{
+    height: 2vw;
+    width: 15vw;
+    background-color: black;
+    top: 31vw;
+    left: 45vw;
+    position: absolute;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.cash3{
+    height: 2vw;
+    width: 15vw;
+    background-color: black;
+    top: 27vw;
+    left: 14vw;
+    position: absolute;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.thousand input{
+    
+    float: left;
+    margin-left: 9vw;
+    margin-top: 10vw;
+    height: 1.5vw;
+    width: 9vw;
+    radius: 0.7em;
+    margin: 2vw;
+    font-size: 2vw;
+    text-transform: none;
+}
+
+.thousand img{
+
+    margin-left:2.2vw;
+    margin-top:10vw;
+    float:left;
+    height: 6vw;
+    width: 11vw;
+    background-color: maroon;
+    box-shadow: 1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+.success{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    top: 2vw;
+    left: 7vw;
+    position: absolute;
+}
